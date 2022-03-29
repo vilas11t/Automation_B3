@@ -22,5 +22,6 @@ public class DataTypePractice {
 	double d2=a2;
 	System.out.println(a2);
 	System.out.println(d2);
+	System.out.println("Test print");
 	}
 }
