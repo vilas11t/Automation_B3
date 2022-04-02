@@ -13,6 +13,7 @@ public abstract class Bike {
 	}
 	void wheels() {
 		System.out.println("Two wheels");
+		System.out.println("git check in");
 	}
 	
 	abstract int speed();
