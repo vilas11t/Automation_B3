@@ -23,10 +23,10 @@ public class CollectionBasics {
 	     - we can have multiple null elements.
 	     
 	     ArrayList                                                    Array
-	  1. Growable in nature                                      Fixed in size
-	  2. Heterogenous                                            Homogenous
-	  3. implemented based on some standard data structure   Not implemented based on some standard data structure   
-	  4. inbuilt methods support is available                inbuilt methods support is not available
+	  1. Growable in nature                                       Fixed in size
+	  2. Heterogeneous                                            Homogeneous
+	  3. implemented based on some standard data structure        Not implemented based on some standard data structure   
+	  4. inbuilt methods support is available                     inbuilt methods support is not available
 	  
 	  
 	  
