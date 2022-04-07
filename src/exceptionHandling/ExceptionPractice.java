@@ -56,6 +56,9 @@ public class ExceptionPractice {
 	         H.W.
 	         1. what is diff between throws and throw
 	         2. what is diff between final, finally and finalize.
+		 
+		 Only checked exceptions are required to be thrown using the throws keyword. 
+		 Unchecked exceptions don’t need to be thrown or handled explicitly in code.
 	 
 	 */
 	
