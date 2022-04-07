@@ -2,15 +2,16 @@ package wrapperClass;
 
 public class WrapperClassPractice {
 	/*
-	  8 primitive- int char byte, 
+	  8 primitive- int, char, byte, short,long, double,boolean, float 
 	 
 	  Wrapper Class- 8 wrapper classes for 8 primitive data types.
+	   -  Interger,Byte,Long,Character,Float,Double,Boolean,Short.
 	   
 	   Autoboxing-primitive into objects.
 	   unboxing- Objects into primitive 
 	   
 	   
-	   Interger,Byte,Long,Character,Float,Double,Boolean,Short.
+	  
 	   
 	    -Character - Character
 	    -Boolean- Boolean
