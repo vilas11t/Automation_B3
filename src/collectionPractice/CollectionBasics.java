@@ -51,7 +51,6 @@ public class CollectionBasics {
 		
 		
 
-		System.out.println(list);
 		
 		
 		// for loop
