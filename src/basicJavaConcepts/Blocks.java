@@ -10,7 +10,6 @@ public class Blocks {
 	 - static block
 	     -  to write business logic 
 	     - execute while class loading, before main method.
-	 
 	 */
 	
 	Blocks(){

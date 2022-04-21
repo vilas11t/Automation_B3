@@ -50,7 +50,7 @@ public class CollectionBasics {
 		intList.add(78);
 		
 		
-		System.out.println(list);
+
 		
 		
 		// for loop
