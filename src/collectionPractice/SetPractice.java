@@ -26,8 +26,8 @@ public class SetPractice {
 	    diff between ArrayList and Set
 	    
 	           ArrayList                                        Set
-	    1. Duplication is allowed                          Duplication is allowed
-	    2. multiple null values                            only one one null value is allowed
+	    1. Duplication is allowed                          Duplication is not allowed
+	    2. multiple null values                            only one null value is allowed
 	    3.insertion order is preserved                     insertion order in not preserved.
 	    
 	 */
@@ -56,7 +56,6 @@ public class SetPractice {
 		
 		set3.addAll(set1);
 		set3.addAll(set2);
-		
 		
 		// set element display
 		System.out.println("Set1:"+set1);

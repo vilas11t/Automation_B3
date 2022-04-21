@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumBasic {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vilas\\Automation_Project_B3\\Automation_B3\\drivers\\chromedriver.exe");
-		
+		System.setProperty("webdriver.chrome.driver", "System.getProperty("user.dir")+"/drivers/chromedriver.exe"");
+	
 		WebDriver driver=new ChromeDriver();  // Webdriver -interface
 		driver.get("https://www.rediff.com/");
 		
