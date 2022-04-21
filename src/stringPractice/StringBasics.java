@@ -83,10 +83,6 @@ public class StringBasics {
 		for (int i = 0; i < strArray.length; i++) {
 			reverseString(strArray[i]);
 		}
-		
-		
-		
-	}
-	
+		}
 
 }
