@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Locators {
 	// Locators in selenium
 	// id, name, className, Tagname, Link Text, Partial Link Text, Xpath, CSS.
+
 	/*
 	  xpath
 	    - absolute xpath
