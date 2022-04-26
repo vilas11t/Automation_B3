@@ -7,9 +7,48 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Locators {
 	// Locators in selenium
 	// id, name, className, Tagname, Link Text, Partial Link Text, Xpath, CSS.
+	/*
+	  xpath
+	    - absolute xpath
+	    - relative xpath
+	    
+	    absolute xpath-  html/body/div[2]/div/div[2]/a[1]
+	    
+	    -relative xpath -
+	        //tag name[@attribute='value of attribute']
+	         
+	         ref website:- https://www.rediff.com/
+	         
+	          contans:- //*[contains(text(),'TOP STORIES')]
+	                   //*[contains(@title,'Lightning fast free')]
+	                    * 
+	           ref website:- https://www.google.com/
+	         
+	          or:- 
+	          //*[@class='gLFyf gsfi' or @name='q' or title='search'] 
+	          
+	         and 
+	         (//*[@value='Google Search' and @aria-label='Google Search'])[2]   - indexing used to locate second element
+	         //a[@class='gb_d' and text()='Gmail']
+	           
+	          
+	          // parent to child 
+	             //a[@aria-label='Google apps']//*[@class='gb_Ve']//*
+	              
+	           //Starts With
+	            //*[starts-with(@id,'topdiv')]
+	            
+	            // axes
+	            //div[@class='secstorybox topboxheight corona topstories']//child::div[2]//h2[1]/following-sibling::h2[1]/parent::div/ancestor::div[1]
+	             
+	 */
+	
+	
+	
+	
 	static WebDriver driver;
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "System.getProperty("user.dir")+"/drivers/chromedriver.exe"");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
 		loginErrorTextTest();
 	}
 	
