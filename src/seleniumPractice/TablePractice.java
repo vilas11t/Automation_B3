@@ -14,6 +14,7 @@ public static WebDriver driver;
 		driver=driverinilialize();
 		tableAddColumnValues();
 		tableAddRightColumnValues();
+
 	}
 	
 	static void tableAddColumnValues() {
@@ -28,8 +29,8 @@ public static WebDriver driver;
 		}
 		
 		System.out.println("Total price:="+sum);
-		
-		//driver.close();
+		driver.close();
+
 	}
 		
 		static void tableAddRightColumnValues() {
