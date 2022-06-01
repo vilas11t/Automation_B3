@@ -27,7 +27,7 @@ public class ExceptionPractice {
 	             ex- Arithmetic exception,ArrayIndexOutOfBoundException,
 	             NumberFormatException.
 	  
-	  Error- ocurs due to lack of system resources
+	  Error- occurs due to lack of system resources
 	       ex- StackOutOfFlowError, OutOfMempryError.
 	       Error is an unchecked exception
 	       
